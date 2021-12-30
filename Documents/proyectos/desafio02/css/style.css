@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/*@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-normal {
+  font-weight: 400;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.bg-black-apple {
+  background-color: #000;
+}
+
+.bg-apple {
+  background-color: #fafafa;
+}
+
+.myTitles {
+  font-size: 2rem;
+}
+
+@media all and (min-width: 768px) {
+  .myTitles {
+    font-size: 3rem;
+  }
+}
+
+.mySubTitles {
+  font-size: 1.1rem;
+}
+
+@media all and (min-width: 768px) {
+  .mySubTitles {
+    font-size: 1.25rem;
+  }
+}
+
+.tamaño-logo {
+  width: 40px;
+  height: 40px;
+}
+
+#bannerContacto {
+  background-image: url("../assets/curved1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+  height: 50vh;
+  position: relative;
+}
+#bannerContacto::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(310deg, #ff0062, #ff9900);
+  opacity: .8;
+}
+
+#bannerContacto > .container {
+  z-index: 1;
+}
+
+#bannerContacto p {
+  margin-bottom: 0;
+}
+
+#bannerCuenta {
+  background-image: url("../assets/curved1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+  height: 50vh;
+  position: relative;
+}
+#bannerCuenta::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(310deg, #00ff00, #00e1ff);
+  opacity: .8;
+}
+
+#bannerCuenta > .container {
+  z-index: 1;
+}
+
+#bannerCuenta p {
+  margin-bottom: 0;
+}
+
+#bannerProductos {
+  background-image: url("../assets/curved1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+  height: 50vh;
+  position: relative;
+}
+#bannerProductos::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(310deg, #0011ff, #e100ff34);
+  opacity: .8;
+}
+
+#bannerProductos > .container {
+  z-index: 1;
+}
+
+#bannerProductos p {
+  margin-bottom: 0;
+}
+
+#banner {
+  background-image: url("../assets/curved1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+  height: 50vh;
+  position: relative;
+}
+
+#banner::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(310deg, #d9ff00, #ff0000);
+  opacity: .8;
+}
+
+#banner > .container {
+  z-index: 1;
+}
+
+#banner p {
+  margin-bottom: 0;
+}
+
+#chocolate p, #producto p {
+  margin-bottom: 0;
+}
+
+.chocolateMax {
+  max-width: 825px;
+}
+
+#description ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+#contact{
+  display: flex;
+  flex-direction: column;   
+  padding: 20px;
+  margin: 0 5%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Robotto;
+  box-sizing: border-box;
+}
+
+#footer{    
+  color: black;
+height: auto;
+background-color: rgb(224, 220, 220);
+  padding: 8px;
+  font-family: Roboto;  
+}
+/*# sourceMappingURL=style.css.map */
